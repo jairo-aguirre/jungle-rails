@@ -1,0 +1,19 @@
+<tr>
+  <td>
+    <%= line.id %>
+  </td>
+  <td>
+    <%= image_tag line.product.image.tiny %>
+  </td>
+  <td>
+    <h4><%= line.product.name %></h4>
+    <br>
+    <p><%= line.product.description %></p>
+  </td>
+  <td>
+    <%= line.quantity %>
+  </td>
+  <td>
+    <%= humanized_money_with_symbol line.total_price_cents %>
+  </td>
+</tr>
