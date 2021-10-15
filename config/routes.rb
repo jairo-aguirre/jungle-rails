@@ -17,6 +17,9 @@ Rails.application.routes.draw do
     resources :products, except: [:edit, :update, :show]
   end
 
+  # get 'about' => 'about#index', as: 'about_us' <-- same result
+  get 'about', to: 'about#index', as: 'about_us'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
