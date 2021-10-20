@@ -33,5 +33,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Screenshots
-![Home Page]()
-![My Cart]()
+![Home Page](https://github.com/vandergit/jungle-rails/blob/main/app/assets/images/Home%20Page.png)
+![My Cart](https://github.com/vandergit/jungle-rails/blob/main/app/assets/images/My%20Cart.png)
